@@ -5,9 +5,16 @@ font-family: 'Roboto', sans-serif;*/
   --text-title-color: #212121;
   --accent-text: #2196f3;
   --primary-white-color: #ffffff;
+  --team-link-color: #afb1b8;
+  --footer-bcg-color: #2f303a;
+  --hero-bcg-color: rgba(47, 48, 58, 0.8);
 }
-.list {
-  list-style-type: none;
+::before,
+::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
 }
 body {
   color: var(--main-text-color);
@@ -15,6 +22,15 @@ body {
 
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-text);
+}
+.list {
+  list-style-type: none;
 }
 .logo-web {
   font-family: Raleway;
@@ -24,8 +40,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-text);
 }
-.logo-studio {
+.logo {
   color: var(--text-title-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 .site-nav {
   font-weight: 500;
@@ -38,14 +60,27 @@ body {
   color: var(--accent-text);
 }
 .mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--accent-text);
 }
-
 .tel-link {
-  color: var(--main-text-color) #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/*Герой*/
+.hero {
+  color: var(--primary-white-color);
+  background-color: var(--hero-bcg-color);
 }
 .section-head {
-  color: var(--text-title-color);
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -53,7 +88,15 @@ body {
   letter-spacing: 0.06em;
 }
 .button-head {
-  color: #ffffff;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   background-color: var(--accent-text);
 }
 .title-detalis {
@@ -72,7 +115,7 @@ body {
 }
 /*услуги*/
 .section-service {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -80,11 +123,56 @@ body {
   color: var(--text-title-color);
 }
 .service-description {
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+/*Наша команда*/
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.social-networks {
+  color: var(--team-link-color);
+}
+/*footer*/
+.footer {
   color: var(--primary-white-color);
+  background-color: var(--footer-bcg-color);
+}
+.logo.footer {
+  color: var(--primary-white-color);
+}
+.adress-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adress-text a {
+  color: rgba(255, 255, 255, 0.6);
 }
