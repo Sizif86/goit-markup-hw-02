@@ -11,159 +11,172 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
+  <!--Шапка сайта-->
   <body>
-    <!--Шапка сайта-->
     <header>
-      <a href="./"
-        ><img
-          src="./imegeshw2/studio/Web Studio.png"
-          alt="логотип Web Studio"
-        />
-      </a>
       <nav>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <p class="logo"><span class="logo-web">Web</span>Studio</p>
+        <ul class="list site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
+          <li><a href="#" class="site-nav">Контакты</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
-    </header>
-    <!--Партфолио-->
-    <section>
-      <h1 hidden>Партфолио</h1>
-      <ul>
-        <li>
-          <button>Все</button>
-        </li>
-        <li>
-          <button>Веб-сайты</button>
-        </li>
-        <li>
-          <button>Приложения</button>
-        </li>
-        <li>
-          <button>Дизайн</button>
-        </li>
-        <li>
-          <button>Маркетинг</button>
-        </li>
-      </ul>
-      <!--карточки-->
-      <ul>
-        <li>
-          <a href="#">
-            <img src="" alt="" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img.jpg" width="322" alt="" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (1).jpg" width="322" alt="" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (2).jpg" width="322" alt="" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (3).jpg" width="322" alt="" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (4).jpg" width="322" alt="" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (5).jpg" width="322" alt="" />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (6).jpg" width="322" alt="" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./imegeshw2/portfolio/img (7).jpg" width="322" alt="" />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
-          </a>
-        </li>
-      </ul>
-    </section>
-  </body>
-  <!--footer-->
-  <footer>
-    <div>
-      <a href="#">
-        <span>Web</span>
-        Studio
-      </a>
-    </div>
-
-    <!--адресс-->
-    <div>
       <address>
-        г. Киев, пр-т Леси Украинки, 26
-        <br />
-        <a href="mailto:info@example.com">
-          info@example.com
-        </a>
-        <br />
-        <a href="tel:+380961111111">
-          +380961111111
-        </a>
+        <ul class="list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-link">
+              <img src="./imegeshw2/studio/svg/envelope .svg" alt="конверт">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="tel-link">
+              <img src="./imegeshw2/studio/svg/Phone.svg" alt="телефон">
+               +38 096 111 11 11
+              </a>
+          </li>
+        </ul>
       </address>
-    </div>
-    <!--соцсети-->
-    <div>
-      <b>присоединяйтесь</b>
-      <ul>
-        <li>
-          <a href="" aria-label="Ссылка на Instagram">Instagram</a>
-        </li>
-        <li>
-          <a href="" aria-label="Ссылка на Twitter">Twitter</a>
-        </li>
-        <li>
-          <a href="" aria-label="Ссылка на Facebook">Facebook</a>
-        </li>
-        <li>
-          <a href="" aria-label="Ссылка на Linkedin">Linkedin</a>
-        </li>
-      </ul>
-    </div>
-
-    <!--подписывайтесь-->
-    <section>
-      <b>подписывайтесь на рассылку</b>
-    </section>
-  </footer>
+    </header>
+    <!--Портфолио-->
+   
+    <main>
+      <section>
+        <h1 hidden>Партфолио</h1>
+        <ul class="list">
+          <li>
+            <button type="button" class="button-second">Все</button>
+          </li>
+          <li>
+            <button type="button" button type="button-second">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" button type="button-second">Приложения</button>
+          </li>
+          <li>
+            <button type="button" button type="button-second">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" button type="button-second">Маркетинг</button>
+          </li>
+        </ul>
+        <!--карточки-->
+        <ul class="list">
+          <li>
+            <a href="#">
+              <img src="" alt="" />
+              <p class="card-hover">
+                Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                шпионажа и атак на защищённые сервера конкурентов.
+              </p>
+              <h2 class="title-card">Технокряк</h2>
+              <p class="title-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img.jpg" width="322" alt="баскетбол" />
+              <h2 class="title-card">Постер New Orlean vs Golden Star</h2>
+              <p class="title-text">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (1).jpg" width="322" alt="" />
+              <h2 class="title-card">Ресторан Seafood</h2>
+              <p class="title-text">Приложение</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (2).jpg" width="322" alt="" />
+              <h2 class="title-card">Проект Prime</h2>
+              <p class="title-text">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (3).jpg" width="322" alt="" />
+              <h2 class="title-card">Проект Boxes</h2>
+              <p class="title-text">Приложение</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (4).jpg" width="322" alt="" />
+              <h2 class="title-card">Inspiration has no Borders</h2>
+              <p class="title-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (5).jpg" width="322" alt="" />
+              <h2 class="title-card">Издание Limited Edition</h2>
+              <p class="title-text">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (6).jpg" width="322" alt="" />
+              <h2 class="title-card">Проект LAB</h2>
+              <p class="title-text">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./imegeshw2/portfolio/img (7).jpg" width="322" alt="" />
+              <h2 class="title-card">Growing Business</h2>
+              <p class="title-text">Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+      <div>
+        <p class="logo footer">
+          <span class="logo-web">Web</span>Studio
+        </p>
+        <address>
+          <p class="adress-text">
+            г. Киев, пр-т Леси Украинки, 26
+            <br />
+            <a href class="mail-link =" mailto:info@example.com">
+              info@example.com
+            </a>
+            <br />
+            <a href="tel:+380961111111" class="tel-link">
+              +380961111111
+            </a>
+          </p>
+        </address>
+      </div>
+      <div>
+        <b>Присоединяйтесь</b>
+        <ul class="list">
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Instagram"
+              class="social-networks">Instagram</a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+              class="social-networks">Twitter</a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Facebook"
+              class="social-networks">Facebook</a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Linkedin"
+              class="social-networks">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <b>подпишитесь на рассылку</b>
+      </div>
+    </footer>
+  </body>
 </html>
